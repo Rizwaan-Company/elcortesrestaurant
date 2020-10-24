@@ -10,6 +10,13 @@ html {
     height: 100vh;
     position: relative;
     background-image: url('/bg.jpg');
+    float: left;
+}
+
+.body {
+    float: right;
+    width: 80%;
+    height: 100vh;
 }
 
 @media screen and (max-width: 900px) {
@@ -18,6 +25,12 @@ html {
         height: 100vh;
         position: relative;
         background-image: url('/bg.jpg');
+        float: left;
+    }
+    .body {
+        float: right;
+        width: 60%;
+        height: 100vh;
     }
 }
 
@@ -74,4 +87,10 @@ html {
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.flagUS {
+    height: 20px;
+    width: 20px;
+    background-image: url('../flags/png/united-states-of-america.png');
 }
